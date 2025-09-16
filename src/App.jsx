@@ -16,37 +16,35 @@ import {
   Testimonials,
 } from "./components";
 
-
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import gsap from "gsap";
 
-
 function App() {
-  gsap.registerPlugin(ScrollTrigger)
+  gsap.registerPlugin(ScrollTrigger);
   return (
     <div className="bg-primary w-full overflow-hidden relative">
       <div className={` ${styles.flexCenter} relative z-20`}>
         <div className={`${styles.boxWidth} px-6 md:px-12`}>
-         <Navbar/>
+          <Navbar />
         </div>
       </div>
 
       <div className={`bg-primary ${styles.flexStart} relative z-10`}>
         <div className={`${styles.boxWidth} `}>
-          <Hero/>
+          <Hero />
         </div>
       </div>
 
       <div className={`bg-primary ${styles.flexStart}`}>
         <div className={`${styles.boxWidth} px-6 md:px-12  `}>
-          <Stats/>
-          <Busines/>
-          <Billing/>
-          <CardDeal/>
-          <Testimonials/>
-          <Clients/>
-          <CTA/>
-          <Footer/>
+          <Stats />
+          <Busines />
+          <Billing />
+          <CardDeal />
+          <Testimonials />
+          <Clients />
+          <CTA />
+          <Footer />
         </div>
       </div>
     </div>

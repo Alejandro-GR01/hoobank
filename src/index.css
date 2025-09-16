@@ -1,18 +1,16 @@
-
-
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
 
 @import "tailwindcss";
 
-.bg-primary{
+.bg-primary {
   @apply bg-[#00040f];
 }
 
-.text-primary{
+.text-primary {
   @apply text-[#00040f];
 }
 
-.bg-dimBlue{
+.bg-dimBlue {
   background-color: rgba(9, 151, 124, 0.1);
 }
 
@@ -132,13 +130,11 @@
 .feedback-card {
   background: rgba(0, 0, 0, 0.223);
   backdrop-filter: blur(20px);
-  
 }
 
 .feedback-card:hover {
   background: var(--black-gradient);
   backdrop-filter: blur(0);
- 
 }
 
 .blue__gradient {

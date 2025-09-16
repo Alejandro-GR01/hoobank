@@ -12,22 +12,18 @@ import Navbar from "./Navbar";
 import Stats from "./Stats";
 import Testimonials from "./testimonials";
 
-
 export {
-    Billing,
-    Busines,
-    Button,
-    CardDeal,
-    Clients,
-    CTA,
-    FeedBcakCard,
-    Footer,
-    GetStarted,
-    Hero,
-    Navbar,
-    Stats,
-    Testimonials
-
-
-
-}
+  Billing,
+  Busines,
+  Button,
+  CardDeal,
+  Clients,
+  CTA,
+  FeedBcakCard,
+  Footer,
+  GetStarted,
+  Hero,
+  Navbar,
+  Stats,
+  Testimonials,
+};
