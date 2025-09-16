@@ -75,8 +75,8 @@ const Billing = () => {
       <div className={layout.sectionImgReverse}>
         <img src={bill} alt="billing" className="w-[100%] max-h-[100%] relative z-[5]" ref={payRef}/>
     
-          <div ref={bg1Ref} className="absolute z-[4] top-0 -left-1/2 md:-left-1/3 xl:-left-1/4 w-[60%] h-[60%] md:w-[70%] md:h-[70%] xl:w-[80%] xl:h-[80%] opacity-50 rounded-full white__gradient"></div>
-          <div ref={bg2Ref} className="absolute z-[0] bottom-0 -left-1/2 md:-left-1/3  xl:-left-1/4 w-[60%] h-[60%] md:w-[70%] md:h-[70%]  xl:w-[80%] xl:h-[80%] opacity-50  rounded-full pink__gradient"></div>
+          <div ref={bg1Ref} className="absolute z-[4] top-0 -left-1/4  w-[60%] h-[60%] md:w-[70%] md:h-[70%] xl:w-[80%] xl:h-[80%] opacity-50 rounded-full white__gradient"></div>
+          <div ref={bg2Ref} className="absolute z-[0] bottom-0 -left-1/4   w-[60%] h-[60%] md:w-[70%] md:h-[70%]  xl:w-[80%] xl:h-[80%] opacity-50  rounded-full pink__gradient"></div>
 
   
       </div>

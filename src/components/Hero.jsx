@@ -74,9 +74,9 @@ const Hero = () => {
       <img ref={handRef} src={robot} alt="billing" className="w-[100%] max-h-[100%] relative z-[5] "/>
       <div ref={bgRef} className="absolute z-[3] w-[100%] h-[100%]">
 
-        <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient  "></div>
-        <div className="absolute z-[1] w-[80%] h-[80%] rounded-full bottom-40 white__gradient "></div>
-        <div className="absolute z-[2] w-[50%] h-[50%] right-20 bottom-20 blue__gradient "></div>
+        <div className="absolute z-[0] w-[50%] h-[45%] top-0 pink__gradient  "></div>
+        <div className="absolute z-[1] w-[85%] h-[85%] rounded-full bottom-40 white__gradient "></div>
+        <div className="absolute z-[2] w-[60%] h-[60%] right-20 bottom-20 blue__gradient "></div>
       </div>
     </div>
 
