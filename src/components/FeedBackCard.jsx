@@ -1,7 +1,7 @@
 import { quotes } from "../assets"
 
 
-const FeedBackCard = ({content, name, title, img, index , feedback}) => (
+const FeedBackCard = ({content, name, title, img}) => (
     <div className={`flex  w-[370px] justify-between flex-col px-10 py-12 rounded-[20px]   feedback-card  `}>
       <img src={quotes}  alt="double_quotes" className="w-[42px] h-[27px] object-container
       "/>

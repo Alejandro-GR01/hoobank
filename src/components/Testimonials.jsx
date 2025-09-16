@@ -121,7 +121,7 @@ const Testimonials = () => {
 
       <div className="flex gap-3 sm:gap-5  h-fit justify-start feedback-container absolute z-[1]" ref={testimonialsRef} >
         {[...feedback, ...feedback].map((card, index)=> (
-          <FeedBcakCard key={`${card.id}-${index}`} {...card} index={index} feedback={feedback} />
+          <FeedBcakCard key={`${card.id}-${index}`} {...card} />
         ))}
       </div>
       </div>
