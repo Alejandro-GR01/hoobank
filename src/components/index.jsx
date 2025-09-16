@@ -10,7 +10,7 @@ import GetStarted from "./GetStarted";
 import Hero from "./Hero";
 import Navbar from "./Navbar";
 import Stats from "./Stats";
-import Testimonials from "./testimonials";
+import Testimonials from "./Testimonials";
 
 export {
   Billing,
