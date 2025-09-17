@@ -92,13 +92,13 @@ const Testimonials = () => {
         const resumeAnimation = () => tl.play();
     
     
-        carousel.addEventListener('mouseenter', pauseAnimation);
-        carousel.addEventListener('mouseleave', resumeAnimation);
+        content.addEventListener('mouseenter', pauseAnimation);
+        content.addEventListener('mouseleave', resumeAnimation);
     
         return () => {
           tl.kill();
-          carousel.removeEventListener('mouseenter', pauseAnimation);
-          carousel.removeEventListener('mouseleave', resumeAnimation);
+          content.removeEventListener('mouseenter', pauseAnimation);
+          content.removeEventListener('mouseleave', resumeAnimation);
         };
       }
   }, [testimonialVisible]);

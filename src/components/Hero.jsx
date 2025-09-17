@@ -20,7 +20,7 @@ const Hero = () => {
           x: -500,
           opacity: 0,
           duration: 1,
-          delay: 1,
+          delay: 0.2,
           ease: "power2.out",
         })
         .from(
@@ -29,20 +29,20 @@ const Hero = () => {
             opacity: 0,
             width: 0,
             height: 0,
-            duration: 2,
+            duration: 1,
             ease: "power2.out",
           },
-          "-=1"
+          "-=0.5"
         )
         .from(
           bgRef.current,
           {
             x: 800,
             y: 200,
-            duration: 2,
+            duration: 1,
             ease: "power2.out",
           },
-          "-=2"
+          "-=1.2"
         )
         .from(
           handRef.current,
