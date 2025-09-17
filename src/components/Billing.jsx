@@ -76,6 +76,29 @@ const Billing = () => {
             },
             "-=0.5"
           );
+
+      
+          const buttons = document.querySelectorAll(".img-button");
+      
+          buttons.forEach((button) => {
+            button.style.cursor = "pointer";
+      
+            button.addEventListener("click", () => {
+              gsap
+                .timeline()
+                .to(button, {
+                  scale: 1.1,
+                  duration: 0.3,
+                  ease: "power2.out",
+                })
+                .to(button, {
+                  scale: 1,
+                  duration: 0.3,
+                  ease: "power2.out",
+                });
+            });
+          });
+    
       });
     },
     { scope: billinRef }
@@ -124,12 +147,12 @@ const Billing = () => {
           <img
             src={apple}
             alt="apple_store"
-            className="w-[128px] h-[42px] object-contain mr-5 cursor-pointer "
+            className="img-button w-[128px] h-[42px] object-contain mr-5 cursor-pointer "
           />
           <img
             src={google}
             alt="google_store"
-            className="w-[128px] h-[42px] object-contain  cursor-pointer"
+            className="img-button w-[128px] h-[42px] object-contain  cursor-pointer"
           />
         </div>
       </div>
